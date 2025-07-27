@@ -2,6 +2,7 @@
 Java Internship Projects
 
 **Project 1: Enhanced Calculator**
+
 The Enhanced Calculator is a detailed Java console application developed during the Java internship. It goes beyond basic calculations by including features like arithmetic operations, scientific functions, temperature conversion, and currency conversion.
 
 **Features**
@@ -19,11 +20,13 @@ The Enhanced Calculator is a detailed Java console application developed during 
 6.Input handling with validation 
 
 **Technologies Used**
+
 Java 17
 
 IntelliJ IDEA
 
 **How to Run**
+
 Clone the repository:
 
 bash
@@ -38,6 +41,7 @@ EnhancedCalculator/EnhancedCalculator.java
 Run the main() method.
 
 **Project 2: Contact Manager**
+
 The Contact Manager is a Java command-line application that allows users to create and manage a list of contacts. It was built to practice object-oriented programming, console interaction, and data management using ArrayLists.
 
 **Features**
@@ -53,11 +57,13 @@ The Contact Manager is a Java command-line application that allows users to crea
 5.In-memory contact management (no database or file storage)
 
 **Technologies Used**
+
 Java 17
 
 IntelliJ IDEA
 
 **How to Run**
+
 Clone the repository:
 
 bash
