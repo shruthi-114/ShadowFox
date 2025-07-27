@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class EnhancedCalculator {
+public class EnhancedCalculator{
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println("Welcome to the Smart Calculator!");
+        System.out.println("Welcome to Calculator!");
 
         while (true) {
             System.out.println("\nSelect an option:");
@@ -15,16 +15,16 @@ public class EnhancedCalculator {
             System.out.println("5 - Exit");
 
             System.out.print("Your choice: ");
-            int menu = input.nextInt();
+            int menu = sc.nextInt();
 
             switch (menu) {
-                case 1 -> performArithmetic(input);
-                case 2 -> useScientificMode(input);
-                case 3 -> convertTemperature(input);
-                case 4 -> convertCurrency(input);
+                case 1 -> performArithmetic(sc);
+                case 2 -> ScientificMode(sc);
+                case 3 -> convertTemperature(sc);
+                case 4 -> convertCurrency(sc);
                 case 5 -> {
                     System.out.println("Closing calculator. Goodbye!");
-                    input.close();
+                    sc.close();
                     return;
                 }
                 default -> System.out.println("Invalid selection. Try again.");
@@ -54,7 +54,7 @@ public class EnhancedCalculator {
         }
     }
 
-    public static void useScientificMode(Scanner in) {
+    public static void ScientificMode(Scanner in) {
         System.out.print("Enter number one: ");
         double a = in.nextDouble();
         System.out.print("Enter number two: ");
@@ -108,7 +108,7 @@ public class EnhancedCalculator {
             double inr = usd * rate;
             System.out.printf("Converted to INR: %.2f\n", inr);
         } else {
-            System.out.println("Invalid conversion type.");
+            System.out.println("Invalid");
         }
     }
 }

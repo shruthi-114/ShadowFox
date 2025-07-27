@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BankAccountModule/BankAccountModule.iml" filepath="$PROJECT_DIR$/BankAccountModule/BankAccountModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ContactManager/ContactManager.iml" filepath="$PROJECT_DIR$/ContactManager/ContactManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/EnhancedCalculator/EnhancedCalculatorModule/EnhancedCalculatorModule.iml" filepath="$PROJECT_DIR$/EnhancedCalculator/EnhancedCalculatorModule/EnhancedCalculatorModule.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/ShadowFox.iml" filepath="$PROJECT_DIR$/.idea/ShadowFox.iml" />
     </modules>
   </component>
 </project>
