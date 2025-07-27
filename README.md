@@ -1,61 +1,72 @@
-# ShadowFox
-Java internship projects
+**#ShadowFox**
+Java Internship Projects
 
-#  ShadowFox – Enhanced Calculator
+**Project 1: Enhanced Calculator**
+The Enhanced Calculator is a detailed Java console application developed during the Java internship. It goes beyond basic calculations by including features like arithmetic operations, scientific functions, temperature conversion, and currency conversion.
 
-Welcome to ShadowFox, a smart calculator built as part of my Java internship project!  
-It’s not just your regular calculator — it can handle basic arithmetic, scientific operations, temperature conversion, and currency conversion — all in one console app.
+**Features**
 
+1.Arithmetic operations: addition, subtraction, multiplication, division
 
-  How to Run This Project
+2.Basic scientific functions 
 
-  What You’ll Need:
+3.Temperature conversion between Celsius and Fahrenheit
 
-- Java JDK 17 or later
-- IntelliJ IDEA (or any Java-friendly IDE)
-- Basic Git knowledge (optional, but helpful)
+4.Currency conversion using fixed-rate units (e.g., USD to INR)
 
+5.Menu-driven console interface
 
+6.Input handling with validation 
 
-Steps to Run:
+**Technologies Used**
+Java 17
 
-1. Clone the Repository  
-If you have Git installed, open your terminal and run:
+IntelliJ IDEA
 
-   ```bash
-   git clone https://github.com/shruthi-114/ShadowFox.git
+**How to Run**
+Clone the repository:
 
+bash
+Copy
+Edit
+git clone https://github.com/shruthi-114/ShadowFox.git
+Open the project in IntelliJ IDEA or any Java-supported IDE.
 
-   
-   
-Project 2: ShadowFox – Contact Manager
+Navigate to:
+EnhancedCalculator/EnhancedCalculator.java
 
-The Contact Manager is a simple yet functional command-line Java app designed to help manage contacts — like a lightweight, terminal-based phonebook.  
-It was built to practice object-oriented programming, user input handling, and list management in a real-world context.
+Run the main() method.
 
+**Project 2: Contact Manager**
+The Contact Manager is a Java command-line application that allows users to create and manage a list of contacts. It was built to practice object-oriented programming, console interaction, and data management using ArrayLists.
 
+**Features**
 
- Features
+1.Add contacts with name, phone number, and email
 
--  Add new contacts with full name, phone number, and email
-- View all saved contacts in a list format
-- Edit contact information (select by ID)
-- Delete contacts from the list
-- Simple in-memory system (no database or file storage yet)
+2.View the list of saved contacts
 
+3.Update contact details
 
+4.Delete contacts from the list
 
- How to Run the Contact Manager
+5.In-memory contact management (no database or file storage)
 
- Requirements:
-- Java JDK 17 or later
-- IntelliJ IDEA (or any IDE that supports Java)
-- Basic understanding of Java and how to run main() methods
+**Technologies Used**
+Java 17
 
- Run Instructions:
+IntelliJ IDEA
 
-1. Open terminal and clone the repository (if not already cloned):
-   ```bash
-   git clone https://github.com/shruthi-114/ShadowFox.git
+**How to Run**
+Clone the repository:
 
+bash
+Copy
+Edit
+git clone https://github.com/shruthi-114/ShadowFox.git
+Open the project in IntelliJ IDEA or any Java-supported IDE.
 
+Navigate to:
+ContactManager/ContactManager.java (or the corresponding main class file)
+
+Run the main() method.
